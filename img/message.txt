@@ -1,0 +1,77 @@
+<button id="togg1">-sushi :</button>
+<img src="./img/pexels-diego-pontes-2323398.jpg" width="200" height="200">
+<button id="togg2">-salad :</button>
+<img src="./img/pexels-ronmar-lacamiento-806361.jpg" width="200" height="200">
+<div id="d1">
+	<p>
+	<img src="./img/pexels-diego-pontes-2323398.jpg" width="200" height="200">
+	<h4 style="font-size:20px;">
+		sushi mexid<br> 
+		</h4>
+		<button class="sushi"
+		type="button">
+		7 $ | ajouter
+		</button>
+	<img src="./img/pexels-ivan-samkov-8951180.jpg"  alt="salad" width="200px"  height="200px" class="img2">
+	<h4 style="font-size:20px;">
+		sushi nagiri<br> 
+		</h4>
+		<button class="sushi"
+		type="button">
+		8 $ | ajouter
+		</button>
+	<img src="./img/pexels-ryutaro-tsukata-6249501.jpg"  alt="salad" width="200px"  height="200px" class="img2">
+	<h4 style="font-size:20px;">
+		sushi california<br> 
+		</h4>
+		<button class="sushi"
+		type="button">
+		6 $| ajouter
+		</button>
+    <img src="./img/pexels-horizon-content-3763808.jpg"  alt="salad" width="200px"  height="200px" class="img2">
+	<h4 style="font-size:20px;">
+		sushi tartare <br> 
+	   </h4>
+	   <button class="sushi"
+	   type="button">
+	   9 $ | ajouter
+	   </button>
+    </p>
+</div>
+
+<div id="d2">
+	<p>
+	<img src="./img/pexels-alesia-kozik-6544260.jpg"  alt="salad" width="200px"  height="200px" class="img3">
+	<h4 style="font-size:20px;">
+		salad thon<br> 
+		</h4>
+		<button class="sushi"
+		type="button">
+		7 $ | ajouter
+		</button>
+	<img src="./img/pexels-foodie-factor-566566.jpg"  alt="" width="200px"  height="200px" class="img3">
+	<h4 style="font-size:20px;">
+		salad egg<br>
+		</h4>
+		<button class="sushi"
+		type="button">
+		7 $ | ajouter
+		</button>
+	<img src="./img/pexels-rachel-claire-5490897.jpg"  alt="" width="200px"  height="200px" class="img3">
+	<h4 style="font-size:20px;">
+		salad california<br> 
+		</h4>
+		<button class="sushi"
+		type="button">
+		7 $ | ajouter
+		</button>
+	<img src="./img/pexels-sydney-troxell-718743.jpg"  alt="" width="200px"  height="200px" class="img3">
+	<h4 style="font-size:20px;">
+		salad corn<br> 7 $
+		</h4>
+		<button class="sushi"
+		type="button">
+		7 $ | ajouter
+		</button>
+</p>
+</div>
