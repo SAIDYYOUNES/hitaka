@@ -270,12 +270,16 @@ header.sticky{
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 	padding-top: 24px;
 }
 .stars i{
+	
 	color: var(--main-color);
 	font-size: 20px;
+}
+.stars{
+	display: flex;
 }
 .location h4{
 	font-size: 24px;
@@ -298,10 +302,22 @@ header.sticky{
 	height: 40px;
 }
 #inp{
-	height: 200px;
+	width: 172px;
+	height: auto;
+	/* padding-bottom: 4%; */
+	background-color:white ;
+	 color:black;
+	 border: 2px  solid black;
+	 
 }
 #inp1{
+	
+	display: flex;
+	width: 172px;
 	height: 80px;
+	background-color:white ;
+	color:black;
+	border: 2px  solid black;
 }
 #cart{
 	text-align: end;
@@ -310,7 +326,17 @@ header.sticky{
 	display: flex;
 	justify-content: end;
 	align-items: center;
+}
+.cart{
+	width: 115%;
 }	
+td{
+	font-size: 13px;
+}
+
+th{
+	padding-left: 2%;
+}
 .bix{
 	display: flex;
 	width: 100%;
@@ -544,6 +570,13 @@ header.sticky{
 		width: 50%;
 		margin-bottom: 12px;
 	}
+	.contac{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	
+        color: #ffffff;
+	}
 }
 
 @media (max-width: 575px){
@@ -565,10 +598,18 @@ header.sticky{
 		height: 85vh;
 		transition: .2s;
 	}
+	.contac{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	
+        color: #ffffff;
+	}
 }
 
 
 .Cont{
+	margin-top:  4%;
 	position: absolute;
     top: 20%;
     right: 28%;
@@ -578,6 +619,6 @@ header.sticky{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	color: #696966;
+	color: #847f7f;
 	
 }
