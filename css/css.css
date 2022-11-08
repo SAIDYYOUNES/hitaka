@@ -194,6 +194,15 @@ header.sticky{
 	transition: all 1s ease 0s;
 	cursor: pointer;
 }
+.container-box1{
+	background: var(--bg-color);
+	padding: 50px 10px;
+	border-radius: 4px;
+	transition: all 1s ease 0s;
+	cursor: pointer;
+	
+}
+
 .container-img img{
 	height: 300px;
 	width: 300px;
@@ -265,6 +274,7 @@ header.sticky{
 	color: white;
 	top: 36px;
 	right: 40px;
+	
 }
 .dest-content{
 	display: flex;
@@ -531,6 +541,25 @@ th{
 }
 
 @media (max-width: 1040px){
+	
+	.cartgrid{
+		
+		display: flex;
+		
+		flex-direction: column-reverse;
+	
+	}
+	.grid{
+		display: grid;
+		grid-template-columns: revert;
+	}
+	.Cont{
+		display: none;
+		margin-top:  4%;
+		position: absolute;
+		top: 20%;
+		right: 28%;
+	}
 	#menu-icon{
 		display: block;
 	}
@@ -580,6 +609,25 @@ th{
 }
 
 @media (max-width: 575px){
+	
+	.cartgrid{
+		
+		display: flex;
+		
+		flex-direction: column-reverse;
+	
+	}
+	.grid{
+		display: grid;
+		grid-template-columns: revert;
+	}
+	.Cont{
+		display: none;
+		margin-top:  4%;
+		position: absolute;
+		top: 20%;
+		right: 28%;
+	}
 	.list{
 		width: 100%;
 	}
